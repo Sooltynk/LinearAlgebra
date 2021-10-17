@@ -9,7 +9,7 @@ disp(inv(A)*b)
 [A_triu, b_triu] = gauss_solver(A, b);
 
 disp("The solution using the inverse matrix method with the Gaussian equivalent
-system is: ")
+      system is: ")
 disp(inv(A_triu)*b_triu)
 
 solution = upper_triangular_solver(A_triu, b_triu);
