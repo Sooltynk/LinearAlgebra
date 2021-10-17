@@ -7,7 +7,7 @@ B = [1, 2; 3, 4];
 % X = 1/2*(3*B*A-4*A) ==> X = 0.5*(3*B*A-4*A).
 
 X = 0.5*(3*B*A-4*A);
-disp("Solution matrix")
+disp("Solution matrix: ")
 disp(X)
 
 % Check if the solution of the matrix equation 2X+4A=3*B*A is correct. 
@@ -15,8 +15,8 @@ disp(X)
 left_matrix = 2*X+4*A;
 right_matrix = 3*B*A;
 
-disp("Matrix on the left side of the equation")
+disp("Matrix on the left side of the equation: ")
 disp(left_matrix)
 
-disp("Matrix on the right side of the equation")
+disp("Matrix on the right side of the equation: ")
 disp(right_matrix)
