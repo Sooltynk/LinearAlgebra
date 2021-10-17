@@ -63,7 +63,6 @@ disp("Section 2A. Solution with GPC:  ")
 disp(solution_pivoting_2)
 disp("Section 2B. Absolute error with GPC: ")
 disp(abs_error_pivoting)
-disp("
-Section 2B. Relative error with GPC: ")
+disp("Section 2B. Relative error with GPC: ")
 disp(rel_error_pivoting)
 disp("\n")
