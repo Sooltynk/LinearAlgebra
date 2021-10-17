@@ -27,13 +27,13 @@ invertible_B = is_invertible(B);
 if invertible_A & invertible_B
   X = inv(A)*C*inv(B');
   
-  disp("Both matrices are invertible, the solution is:")
+  disp("Both matrices are invertible, the solution is: ")
   disp(X)
   
-  disp("Matrix on the left side of the equation")
+  disp("Matrix on the left side of the equation: ")
   disp(A*X*B')
   
-  disp("Matrix on the right side of the equation")
+  disp("Matrix on the right side of the equation: ")
   disp(C)
 else
   disp("Matrices A and B aren't invertible")
