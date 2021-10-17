@@ -1,4 +1,5 @@
 % WORKSHOP 3 EXERCISE 2 
+
 disp("EXERCISE 2")
 disp("\n")
 
