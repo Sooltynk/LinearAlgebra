@@ -1,4 +1,4 @@
-# EXERCISE 1: Solve the matrix equation 2X+4A=3*B*A.
+#{ EXERCISE 1: Solve the matrix equation 2X+4A=3*B*A. #}
 
 A = [0, -1; 2, 1];
 B = [1, 2; 3, 4];
