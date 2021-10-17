@@ -16,6 +16,7 @@ real_solution_1 = [168/5; -842/5; 212];
 % Solving the linear equation
 [system_gauss, independent_gauss] = gauss_solver(vandermonde_1, 
                                     independent_vector_1);
+                                    
 solution_gauss_1 = upper_triangular_solver(system_gauss, independent_gauss)';
 
 [abs_error_gauss, rel_error_gauss] = compute_errors(real_solution_1, 
@@ -39,6 +40,7 @@ disp("\n")
 
 [system_pivoting, independent_pivoting] = 
 gauss_column_pivoting_solver(vandermonde_1, independent_vector_1);
+
 solution_pivoting_1 = 
 upper_triangular_solver(system_pivoting, independent_pivoting)';
 
