@@ -3,8 +3,8 @@
 A = [0, -1; 2, 1];
 B = [1, 2; 3, 4];
 
-%{ The equation 2X+4A=3*B*A once the X is cleared, the result is 
- X = 1/2*(3*B*A-4*A) ==> X = 0.5*(3*B*A-4*A). %}
+% The equation 2X+4A=3*B*A once the X is cleared, the result is 
+% X = 1/2*(3*B*A-4*A) ==> X = 0.5*(3*B*A-4*A).
 
 X = 0.5*(3*B*A-4*A);
 disp("Solution matrix")
