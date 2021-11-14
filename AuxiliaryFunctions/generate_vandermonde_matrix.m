@@ -1,4 +1,4 @@
-function A = vandermonde(C)
+function A = generate_vandermonde_matrix(C)
   n = length(C);
   A = zeros(n,n);
   for j = 1:n
