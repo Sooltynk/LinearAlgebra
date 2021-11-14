@@ -1,6 +1,6 @@
 % WORKSHOP 3 EXERCISE 1 
 
-disp("EXEERCISE 1")
+disp("EXERCISE 1")
 disp("\n")
 
 initial_vector_1 = [5/2; 7/3; 11/4];
