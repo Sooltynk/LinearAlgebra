@@ -39,7 +39,7 @@ disp(e_rel)
 % SECTION C
 
 disp("Section C: ");
-[A_triu, b_triu,permutation] = gauss_maximum_pivoting_solver(A, b);
+[A_triu, b_triu,permutation] = gauss_maximal_pivoting_solver(A, b);
 solution = upper_triangular_solver(A_triu, b_triu);
 solution = reorder_solution(solution,permutation)
 
