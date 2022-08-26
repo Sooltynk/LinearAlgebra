@@ -16,12 +16,12 @@ function [L, U, P, Q] = LUFactPM(U)
     if U(mx,my) == 0
       m = 1;
     else
-      % cambio de filas
+      % change of rows
       for l = 1:n
         be = U(j,l);
         U(j,l) = U(mx,l);
         U(mx,l) = be;
-        % representacion del cambio de filas realizado
+        % representation of the change of rows made
           aux = P(j,l);
           P(j,l) = P(mx,l);
           P(mx,l) = aux;
@@ -31,12 +31,12 @@ function [L, U, P, Q] = LUFactPM(U)
             L(mx,l) = be;
           endif
       endfor
-      % cambio de columnas
+      % change of columns
       for t = 1:n
         hey = U(t,j);
         U(t,j) = U(t,my);
         U(t,my) = hey;
-        % representacion del cambio de columnas realizado
+        % representation of the change of columns made
           aux = Q(t,j);
           Q(t,j) = Q(t,my);
           Q(t,my) = aux;
